@@ -53,22 +53,21 @@ export default function Home() {
           
 
           <span className="description first">
-            After graduating high school, I made a decision that would change the trajectory of my path in life.&nbsp;
-            <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8szQeYgks7ET0P4tb6qdbYt-Mns5zFsdu-Q&s" rel="noopener">Programming</a> ultimately began and saved my career to now that I am blessed to be working as a full-time software engineeer. 
-            I also have an extreme passion for building and selling software so that I may be able to help those communities in need.
+            <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8szQeYgks7ET0P4tb6qdbYt-Mns5zFsdu-Q&s" rel="noopener">Programming</a> ultimately began and saved my life such that now I am blessed to be working as a full-time software engineer. 
+            I have an extreme passion for building and selling software because of my willingness to help those communities in need.
             Most of my peers describe me as a highly motivated individual who spends his time absorbing knowledge about technology and data.
             Under no circumstances will I allow myself to fail in any goal or objective that I vow to accomplish.
           </span>
 
           <span className="description second">
             Currently, I am in the phase of building a startup that will improve upon the outdated use of sports data by introducing advanced analytics, machine learning models, and innovative visualizations. 
-            The goal is to provide teams, analysts, and fans with real-time insights that go beyond traditional metrics, unlocking deeper layers of performance understanding, predictive analysis, and decision-making tools for various sports domains.
+            The goal is to provide teams, analysts, and fans with real-time insights that go beyond traditional metrics, unlocking deeper layers of performance understanding, regression analysis, and decision-making tools for various sports domains.
           </span>
 
           <span className="description third">
             Of all the other things in my life, I enjoy spending personal quality time with family and friends, trying all types of food cuisines, and exploring the fashion space, mainly streetwear. 
             I am also a graduate student studying computer science at <a target="_blank" href="https://www.gatech.edu/" rel="noopener">Georgia Tech</a>.
-            My primary focus is on knowledge-based cognitive systems and interactive intelligent agents.
+            My primary focus is on knowledge-based cognitive systems and interactive AI agents.
           </span>
         </section>
       </main>
