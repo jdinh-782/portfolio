@@ -53,7 +53,7 @@ export default function Home() {
           
 
           <span className="description first">
-            After graduating high school in 2019, I made a decision to change the trajectory of my path in life.&nbsp;
+            After graduating high school, I made a decision that would change the trajectory of my path in life.&nbsp;
             <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8szQeYgks7ET0P4tb6qdbYt-Mns5zFsdu-Q&s" rel="noopener">Programming</a> ultimately began and saved my career to now that I am blessed to be working as a full-time software engineeer. 
             I also have an extreme passion for building and selling software so that I may be able to help those communities in need.
             Most of my peers describe me as a highly motivated individual who spends his time absorbing knowledge about technology and data.
