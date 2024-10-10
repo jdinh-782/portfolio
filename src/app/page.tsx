@@ -1,7 +1,6 @@
 import "./page.scss";
 import headerImage from "../../public/images/header.png";
 import { Description, Email, GitHub, Instagram, LinkedIn, Public } from "@mui/icons-material";
-import { Button } from "@mui/material";
 
 
 export default function Home() {
