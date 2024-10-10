@@ -78,9 +78,25 @@ export default function Home() {
         </section>
       </main>
 
-      {/* Separate components */}
+      {/* Side navigation component */}
+      <nav className="side-nav">
+        <a className="item">
+          <span className="indicator"></span>
+          <span>ABOUT</span>
+        </a>
 
-      {/*  */}
+        <a className="item">
+          <span className="indicator"></span>
+          <span>EXPERIENCE</span>
+        </a>
+
+        <a className="item">
+          <span className="indicator"></span>
+          <span>PROJECTS</span>
+        </a>
+      </nav>
+
+      {/* Footer component */}
       <footer className="footer">
         <a href="https://www.instagram.com/jdinhhhh/" target="_blank" rel="noopener">
           <Instagram />
