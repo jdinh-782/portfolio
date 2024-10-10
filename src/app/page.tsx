@@ -11,6 +11,7 @@ export default function Home() {
     { city: "Irvine", province: "CA", country: 'US', region: "NA" },
     { city: "Jersey City", province: "NJ", country: 'US', region: "NA" },
     { city: "New York City", province: "NY", country: 'US', region: "NA" },
+    { city: "Torrance", province: "CA", country: 'US', region: "NA" },
     { city: "Seattle", province: "WA", country: 'US', region: "NA" }
   ];
   
@@ -73,7 +74,8 @@ export default function Home() {
           <span className="description endnote">
             Created with <a href="https://nextjs.org/" target="_blank">Next.js</a> framework and <a href="https://sass-lang.com/" target="_blank">Sass</a> stylesheets. <br/>
             Developed in <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>. <br/>
-            Deployed with <a href="https://vercel.com/" target="_blank">Vercel</a>.
+            Deployed with <a href="https://vercel.com/" target="_blank">Vercel</a>. <br/>
+            © 2024 Johnson Dinh
           </span>
         </section>
       </main>
@@ -93,6 +95,11 @@ export default function Home() {
         <a className="item">
           <span className="indicator"></span>
           <span>PROJECTS</span>
+        </a>
+
+        <a className="item">
+          <span className="indicator"></span>
+          <span>ACADEMIA</span>
         </a>
       </nav>
 

@@ -13,5 +13,5 @@ For any concerns, feel free to reach out by [email](mailto:jdinhbus@gmail.com?su
 
 
 ## Acknowledgements
-[Brittany Chiang](https://brittanychiang.com/#about)
+[Brittany Chiang](https://brittanychiang.com/#about) <br/>
 [Once UI](https://once-ui.com/templates/magic-portfolio)

@@ -110,14 +110,14 @@
   
         .item:hover {
           border-color: gray;
-          opacity: 50%;
+          opacity: 80%;
         }
       }
   
       .description {
         font-size: 18px;
         line-height: 32px;
-        margin-top: 2rem;
+        margin-top: 1.5rem;
         font-weight: 300;
         letter-spacing: 0.5px;
   
@@ -134,6 +134,10 @@
       .endnote {
         line-height: 24px;
       }
+    }
+
+    .endnote {
+      margin-top: 5rem;
     }
   }
 
