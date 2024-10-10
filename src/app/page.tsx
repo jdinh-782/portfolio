@@ -8,6 +8,8 @@ export default function Home() {
   const locations = [
     { city: "Ho Chi Minh City", province: "VN", country: '', region: "SEA" },
     { city: "Los Angeles", province: "CA", country: 'US', region: "NA" },
+    { city: "San Diego", province: "CA", country: 'US', region: "NA" },
+    { city: "Irvine", province: "CA", country: 'US', region: "NA" },
     { city: "Jersey City", province: "NJ", country: 'US', region: "NA" },
     { city: "New York City", province: "NY", country: 'US', region: "NA" },
     { city: "Seattle", province: "WA", country: 'US', region: "NA" }
@@ -30,8 +32,6 @@ export default function Home() {
             </div>
           ))}
         </div>
-
-        
       </header>
 
       <main className="main">

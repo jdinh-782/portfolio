@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   min-height: 100svh;
-  padding: 5rem 20rem 0 20rem;
+  padding: 5rem 20rem 5rem 20rem;
   gap: 5rem;
   font-family: Inter, sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
@@ -13,13 +13,24 @@
   @supports (font-variation-settings: normal) {
     :root { font-family: InterVariable, sans-serif; }
   }
-  
-  // @media (max-width: 600px) {
-  //   .page {
-  //     padding: 32px;
-  //     padding-bottom: 80px;
-  //   }
-  // }
+
+  @media (max-width: 1600px) {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  @media (max-width: 1366px) {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    gap: 5rem;
+  }
+
+  @media (max-width: 964px) {
+    gap: 3rem;
+    padding: 3rem;
+    flex-direction: column;
+    justify-content: center;
+  }
 
   .header {
     display: flex;
@@ -130,11 +141,9 @@
     right: 2rem;
     bottom: 2rem;
 
-    // @media (max-width: 600px) {
-    //   flex-wrap: wrap;
-    //   align-items: center;
-    //   justify-content: center;
-    // }
+    @media (max-width: 964px) {
+      right: 0.75rem;
+    }
 
     a {
       display: flex;
