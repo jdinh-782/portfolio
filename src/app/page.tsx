@@ -40,7 +40,7 @@ export default function Home() {
           <h4 className="position">Software Engineer</h4>
 
           <div className="items">
-            <a className="item resume" href="https://drive.google.com/file/d/12UvRj4iigFZICrTjp3BiCThSYGdAg7B6/view?usp=sharing" target="_blank">
+            <a className="item resume" href="https://drive.google.com/file/d/12UvRj4iigFZICrTjp3BiCThSYGdAg7B6/view?usp=sharing" target="_blank" rel="noopener">
               <Description className="icon" />
               <span>Resume</span>
             </a>
@@ -55,7 +55,7 @@ export default function Home() {
 
           <span className="description first">
             After graduating high school in 2019, I made a decision to change the trajectory of my path in life.&nbsp;
-            <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8szQeYgks7ET0P4tb6qdbYt-Mns5zFsdu-Q&s">Programming</a> ultimately began and saved my career to now that I am blessed to be working as a full-time software engineeer. 
+            <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8szQeYgks7ET0P4tb6qdbYt-Mns5zFsdu-Q&s" rel="noopener">Programming</a> ultimately began and saved my career to now that I am blessed to be working as a full-time software engineeer. 
             I also have an extreme passion for building and selling software so that I may be able to help those communities in need.
             Most of my peers describe me as a highly motivated individual who spends his time absorbing knowledge about technology and data.
             Under no circumstances will I allow myself to fail in any goal or objective that I vow to accomplish.
@@ -68,22 +68,22 @@ export default function Home() {
 
           <span className="description third">
             Of all the other things in my life, I enjoy spending personal quality time with family and friends, trying all types of food cuisines, and exploring the fashion space, mainly streetwear. 
-            I am also a graduate student studying computer science at <a target="_blank" href="https://www.gatech.edu/">Georgia Tech</a>.
+            I am also a graduate student studying computer science at <a target="_blank" href="https://www.gatech.edu/" rel="noopener">Georgia Tech</a>.
             My primary focus is on knowledge-based cognitive systems and interactive intelligent agents.
           </span>
         </section>
       </main>
 
       <footer className="footer">
-        <a href="https://www.instagram.com/jdinhhhh/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/jdinhhhh/" target="_blank" rel="noopener">
           <Instagram />
         </a>
 
-        <a href="https://www.linkedin.com/in/johnson-dinh/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/johnson-dinh/" target="_blank" rel="noopener">
           <LinkedIn />
         </a>
 
-        <a href="https://github.com/jdinh-782" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/jdinh-782" target="_blank" rel="noopener">
           <GitHub />
         </a>
       </footer>
