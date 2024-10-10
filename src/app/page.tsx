@@ -34,7 +34,7 @@ export default function Home() {
       </header>
 
       <main className="main">
-        <section className="about-section">
+        <section className="content about">
           <h1 className="title">Johnson Dinh</h1>
           <h4 className="position">Software Engineer</h4>
 
@@ -49,8 +49,6 @@ export default function Home() {
               <span>Email</span>
             </a>
           </div>
-
-          
 
           <span className="description first">
             <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8szQeYgks7ET0P4tb6qdbYt-Mns5zFsdu-Q&s" rel="noopener">Programming</a> ultimately began and saved my life such that now I am blessed to be working as a full-time software engineer. 
@@ -70,8 +68,19 @@ export default function Home() {
             My primary focus is on knowledge-based cognitive systems and interactive AI agents.
           </span>
         </section>
+
+        <section className="content endnote">
+          <span className="description endnote">
+            Created with <a href="https://nextjs.org/" target="_blank">Next.js</a> framework and <a href="https://sass-lang.com/" target="_blank">Sass</a> stylesheets. <br/>
+            Developed in <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>. <br/>
+            Deployed with <a href="https://vercel.com/" target="_blank">Vercel</a>.
+          </span>
+        </section>
       </main>
 
+      {/* Separate components */}
+
+      {/*  */}
       <footer className="footer">
         <a href="https://www.instagram.com/jdinhhhh/" target="_blank" rel="noopener">
           <Instagram />
