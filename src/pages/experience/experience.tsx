@@ -1,5 +1,5 @@
+import TechnologiesIcons from "../components/technologies-icons/technologiesIcons";
 import "./experience.scss";
-import technologiesIcons from "../components/technologiesIcons";
 
 
 export default function Experience() {
@@ -73,7 +73,7 @@ export default function Experience() {
                         <div className="technologies">
                             {experience.technologies.map((technology: string, i: number) => (
                                 <div className={`technology ${i}`} key={i}>
-                                    {technologiesIcons.find(obj => obj.name === technology)?.element}
+                                    <TechnologiesIcons technologyName={technology}  />
                                 </div>
                             ))}
                         </div>
