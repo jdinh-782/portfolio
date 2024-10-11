@@ -27,6 +27,11 @@
             cursor: pointer;
             transition: 0.2s ease-out;
 
+            @media (max-width: 964px) {
+                pointer-events: none;
+                user-select: none;
+            }
+
             .organization {
                 font-size: 32px;
                 font-weight: bold;

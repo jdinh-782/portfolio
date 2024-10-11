@@ -110,7 +110,7 @@
         width: 2rem;
       }
     }
-
+    
     .selected {
       font-weight: 800;
 
@@ -133,6 +133,14 @@
       transform: translate(-50%);
     }
 
+    @media (max-width: 768px) {
+      gap: 1rem;
+    }
+
+    @media (max-width: 480px) {
+      gap: 0.5rem;
+    }
+
     .item {
       text-decoration: none;
       cursor: pointer;
@@ -140,6 +148,10 @@
       span {
         font-size: 18px;
         letter-spacing: 1px;
+
+        @media (max-width: 480px) {
+          font-size: 14px;
+        }
       }
     }
 
