@@ -1,9 +1,10 @@
 "use client";
 import "./page.scss";
 import headerImage from "../../public/images/header.png";
-import { Description, Email, GitHub, Instagram, LinkedIn, Public } from "@mui/icons-material";
+import { GitHub, Instagram, LinkedIn, Public } from "@mui/icons-material";
 import React from "react";
 import About from "@/pages/about/about";
+import Experience from "@/pages/experience/experience";
 
 
 export default function Home() {
@@ -48,6 +49,7 @@ export default function Home() {
 
       <main className="main">
         { selectedSection === "ABOUT" && <About />}
+        { selectedSection === "EXPERIENCE" && <Experience />}
       </main>
 
       {/* Side navigation component */}
