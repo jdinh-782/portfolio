@@ -5,7 +5,7 @@ A web application to host my portfolio.
 
 
 ## Help
-For any concerns, feel free to reach out by [email](mailto:jdinhbus@gmail.com?subject=[GitHub]%20Source%20Han%20Sans).
+For all inquiries, please email me at [jdinhbus@gmail.com](mailto:jdinhbus@gmail.com?subject=[GitHub]%20Source%20Han%20Sans).
 
 
 ## Authors and Contributors

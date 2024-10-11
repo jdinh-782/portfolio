@@ -8,7 +8,18 @@ import Experience from "@/pages/experience/experience";
 
 
 export default function Home() {
-  const locations: Array<any> = [
+  interface LocationsInterface {
+    city: string;
+    province: string;
+    country: string;
+    region: string;
+  };
+
+  interface SectionsInterface {
+    name: string;
+  }
+
+  const locations: Array<LocationsInterface> = [
     { city: "Ho Chi Minh City", province: "VN", country: '', region: "SEA" },
     { city: "Los Angeles", province: "CA", country: 'US', region: "NA" },
     { city: "San Diego", province: "CA", country: 'US', region: "NA" },
@@ -19,7 +30,7 @@ export default function Home() {
     { city: "Seattle", province: "WA", country: 'US', region: "NA" }
   ];
 
-  const sections: Array<any> = [
+  const sections: Array<SectionsInterface> = [
     { name: "ABOUT" },
     { name: "EXPERIENCE" },
     { name: "PROJECTS" },
