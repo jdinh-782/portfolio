@@ -52,6 +52,7 @@ export default function Home() {
         { selectedSection === "EXPERIENCE" && <Experience />}
       </main>
 
+      {/* TODO: Create a top bar on mobile view */}
       {/* Side navigation component */}
       <nav className="side-nav">
         {sections.map((section, ind) => (
