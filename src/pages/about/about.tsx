@@ -21,8 +21,8 @@ export default function About() {
         </div>
 
         <span className="description first">
-            <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8szQeYgks7ET0P4tb6qdbYt-Mns5zFsdu-Q&s" rel="noopener">Programming</a> ultimately began and saved my life such that now I am blessed to be working as a full-time software engineer. 
-            I have an extreme passion for building and selling software because of my willingness to help those communities in need.
+            <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8szQeYgks7ET0P4tb6qdbYt-Mns5zFsdu-Q&s" rel="noopener">Programming</a> makes up most of my life. It has granted me all my success and innovations that I pursue every day.
+            Aside from being a full-time software engineer, I have an extreme passion for building and selling software because of my willingness to help those communities in need.
             Most of my peers describe me as a highly motivated individual who spends his time absorbing knowledge about technology and data.
             Under no circumstances will I allow myself to fail in any goal or objective that I vow to accomplish.
         </span>

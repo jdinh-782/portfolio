@@ -52,12 +52,20 @@ export default function Home() {
         { selectedSection === "EXPERIENCE" && <Experience />}
       </main>
 
-      {/* TODO: Create a top bar on mobile view */}
       {/* Side navigation component */}
       <nav className="side-nav">
         {sections.map((section, ind) => (
           <a className={`item ${selectedSection === section.name ? 'selected' : ''}`} onClick={() => setSelectedSection(section.name)} key={ind}>
             <span className="indicator"></span>
+            <span>{section.name}</span>
+          </a>
+        ))}
+      </nav>
+
+      {/* Top bar navigation component */}
+      <nav className="top-nav">
+        {sections.map((section, ind) => (
+          <a className={`item ${selectedSection === section.name ? 'selected' : ''}`} onClick={() => setSelectedSection(section.name)} key={ind}>
             <span>{section.name}</span>
           </a>
         ))}
