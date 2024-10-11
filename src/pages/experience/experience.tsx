@@ -3,7 +3,17 @@ import technologiesIcons from "../components/technologiesIcons";
 
 
 export default function Experience() {
-    const experiences: Array<any> = [
+    interface ExperienceInterface {
+        organization: string;
+        href: string;
+        team: string;
+        position: string;
+        timeline: string;
+        description: string;
+        technologies: Array<string>
+    };
+
+    const experiences: Array<ExperienceInterface> = [
         {
             organization: "UPS Capital",
             href: "https://upscapital.com/",
@@ -20,7 +30,7 @@ export default function Experience() {
             position: "Software Engineer Program Intern",
             timeline: "June 2022 - August 2022",
             description: "Prototyped a web software development kit that retrieves internal and external application metrics, monitors user behavior, and displays product usage for over 100 clients and business partners. Built dashboard visualizations and stories using Tableau to showcase timelines of client productivity and application utilization. Leveraged React and Material UI frameworks to create a visual prototype to display these dashboards within a web application. Operated an experimental version of the kit, enabling clients to generate analytical insights for over 1,000 services, boosting productivity by up to 85%.",
-            technologies: ["React", "MaterialUI", "HTML5", "CSS3", "TypeScript", "ESLint", "Node.js", "Express.js", "Python", "Visual Studio Code", "Swagger", "Tableau", "Apache Hadoop", "Elastic", "Kibana", "Bitbucket", "Jira"]
+            technologies: ["React", "Material UI", "HTML5", "CSS3", "TypeScript", "ESLint", "Node.js", "Express.js", "Python", "Visual Studio Code", "Swagger", "Tableau", "Apache Hadoop", "Elastic", "Kibana", "Bitbucket", "Jira"]
         },
         {
             organization: "JPMorgan Chase",
@@ -53,7 +63,7 @@ export default function Experience() {
             <h1 className="title">Experience</h1>
 
             <div className="items">
-                {experiences.map((experience: any, ind: number) => (
+                {experiences.map((experience, ind: number) => (
                     <div className={`item ${ind}`} key={ind} onClick={() => onClickExperience(ind)}>
                         <span className="organization">{experience.organization}</span>
                         <span className="team">{experience.team}</span>
@@ -63,7 +73,7 @@ export default function Experience() {
                         <div className="technologies">
                             {experience.technologies.map((technology: string, i: number) => (
                                 <div className={`technology ${i}`} key={i}>
-                                    {technologiesIcons[technology]}
+                                    {technologiesIcons.find(obj => obj.name === technology)?.element}
                                 </div>
                             ))}
                         </div>
