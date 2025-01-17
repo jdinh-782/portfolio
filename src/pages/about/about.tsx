@@ -9,7 +9,7 @@ export default function About() {
         <h4 className="position">Software Engineer</h4>
 
         <div className="items">
-            <a className="item resume" href="https://drive.google.com/file/d/12UvRj4iigFZICrTjp3BiCThSYGdAg7B6/view?usp=sharing" target="_blank" rel="noopener">
+            <a className="item resume" href="https://drive.google.com/file/d/1ETFy0mgbcFPT-EmCe4XoTZNHwraznsNs/view?usp=sharing" target="_blank" rel="noopener">
                 <Description className="icon" />
                 <span>Resume</span>
             </a>
