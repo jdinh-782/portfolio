@@ -33,8 +33,8 @@ export default function Home() {
   const sections: Array<SectionsInterface> = [
     { name: "ABOUT" },
     { name: "EXPERIENCE" },
-    { name: "PROJECTS" },
-    { name: "ACADEMIA" }
+    // { name: "PROJECTS" },
+    // { name: "ACADEMIA" }
   ];
   const [selectedSection, setSelectedSection] = React.useState("ABOUT");
 

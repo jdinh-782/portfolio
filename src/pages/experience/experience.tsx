@@ -15,10 +15,19 @@ export default function Experience() {
 
     const experiences: Array<ExperienceInterface> = [
         {
+            organization: "DFS",
+            href: "https://www.dataforsports.app/",
+            team: "",
+            position: "Lead Software Engineer",
+            timeline: "August 2023 - Present",
+            description: "Leading a team of software engineers to build a service platform featuring analytics, modeling, and predictions on sports data. Integrating batch processing techniques to enhance peformance on ETL pipelines and reduce data processing time by 30%. Designing a responsive, intuitive UI with modern React frameworks, resulting in a 20% increase in customer satisfaction. Maintaining a near 100% system uptime to ensure seamless access for 100+ active users during peak sports seasons.",
+            technologies: ["Next.js", "React", "TypeScript", "HTML5", "CSS3", "ESLint", "Supabase", "DigitalOcean", "Visual Studio Code", "WebStorm", "Postman", "Docker", "Cloudflare", "GitHub", "Confluence", "Jira"]
+        },
+        {
             organization: "UPS Capital",
             href: "https://upscapital.com/",
             team: "Parcel Pro",
-            position: "Software Applications Developer",
+            position: "Applications Developer",
             timeline: "June 2023 - Present",
             description: "Leading a team of full-stack developers to design a real-time tracking system that provides accurate, live updates for over 10,000 domestic and international shipments. Engineering software solutions that integrate SQL Server databases to extract shipment data from tracking numbers, presenting it through a responsive user interface built with modern Angular frameworks. Enhancing application performance by minimizing asynchronous issues and optimizing component rendering through modular programming. Collaborating with the Parcel Pro development team, I help launch early application versions, increasing user satisfaction by 30%.",
             technologies: ["Angular", "HTML5", "CSS3", "TypeScript", "ESLint", "C#", ".NET", "Visual Studio Code", "Visual Studio", "Postman", "Microsoft SQL Server", "Microsoft Azure", "Azure DevOps", "Docker", "Kubernetes", "Confluence", "Jira"]
@@ -45,7 +54,7 @@ export default function Experience() {
             organization: "University of California, Irvine",
             href: "https://uci.edu/",
             team: "Disability Services Center",
-            position: "Course Notes Programmer",
+            position: "Course Notes Developer",
             timeline: "January 2022 - April 2022",
             description: "Advised mini-lectures and office hours for professors by providing course materials and notes for over 500 students. Covered a range of topics across programming and math courses, including data structures, machine learning, and advanced algebra. Organized and stored more than 50 hand-written and typed course notes in online server solutions, ensuring ease of access for all students.",
             technologies: ["Notion", "Microsoft Word", "Microsoft OneNote", "Microsoft Excel", "Microsoft PowerPoint", "Microsoft SharePoint", "Microsoft OneDrive"]

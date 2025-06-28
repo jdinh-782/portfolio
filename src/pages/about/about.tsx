@@ -28,14 +28,14 @@ export default function About() {
         </span>
 
         <span className="description second">
-            Currently, I am in the phase of building a startup that will improve upon the outdated use of sports data by introducing advanced analytics, machine learning models, and innovative visualizations. 
+            Currently, I am in the phase of building <a target="_blank" href="https://www.dataforsports.app/" rel="noopener">DFS</a>, a software service that will improve upon the outdated use of sports data by introducing advanced analytics, machine learning models, and innovative visualizations. 
             The goal is to provide teams, analysts, and fans with real-time insights that go beyond traditional metrics, unlocking deeper layers of performance understanding, regression analysis, and decision-making tools for various sports domains.
         </span>
 
         <span className="description third">
-            Of all the other things in my life, I enjoy spending personal quality time with family and friends, trying all types of food cuisines, and exploring the fashion space, mainly streetwear. 
+            Of all the other things in my life, I enjoy spending personal quality time with family and friends, trying all types of food cuisines, and exploring the outdoors. 
             I am also a graduate student studying computer science at <a target="_blank" href="https://www.gatech.edu/" rel="noopener">Georgia Tech</a>.
-            My primary focus is on knowledge-based cognitive systems and interactive AI agents.
+            My primary focus is on human-computer interaction and data analytics.
         </span>
 
         <span className="description credits">
