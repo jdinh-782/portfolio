@@ -36,14 +36,14 @@ export default function Home() {
           className="header-img"
         />
 
-        <div className="locations">
+        {/* <div className="locations">
           {locations.map((location, ind) => (
             <div className={`location ${location.city.replace(/ /g, "_")}`} key={ind}>
               <Public />
               <span>{`${location.city}, ${location.province}${location.country ? `, ${location.country}` : ''}`}</span>
             </div>
           ))}
-        </div>
+        </div> */}
       </header>
 
       <main className="main">
