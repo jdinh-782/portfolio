@@ -1,5 +1,5 @@
-import TechnologiesIcons from "../components/technologies-icons/technologiesIcons";
 import "./experience.scss";
+import TechnologiesIcons from "../components/technologies-icons/technologiesIcons";
 
 
 export default function Experience() {
