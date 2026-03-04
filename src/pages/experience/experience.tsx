@@ -69,8 +69,6 @@ export default function Experience() {
 
     return (
         <div className="experience">
-            <h1 className="title">Experience</h1>
-
             <div className="items">
                 {experiences.map((experience, ind: number) => (
                     <div className={`item ${ind}`} key={ind} onClick={() => onClickExperience(ind)}>

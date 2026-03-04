@@ -20,7 +20,7 @@ export default function About() {
             </a>
         </div>
 
-        <span className="description first">
+        {/* <span className="description first">
             <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8szQeYgks7ET0P4tb6qdbYt-Mns5zFsdu-Q&s" rel="noopener">Programming</a> makes up most of my life. It has granted me all my success and innovations that I pursue every day.
             Aside from being a full-time software engineer, I have an extreme passion for building and selling software because of my willingness to help those communities in need.
             Most of my peers describe me as a highly motivated individual who spends his time absorbing knowledge about technology and data.
@@ -36,14 +36,7 @@ export default function About() {
             Of all the other things in my life, I enjoy spending personal quality time with family and friends, trying all types of food cuisines, and exploring the outdoors. 
             I am also a graduate student studying computer science at <a target="_blank" href="https://www.gatech.edu/" rel="noopener">Georgia Tech</a>.
             My primary focus is on human-computer interaction and data analytics.
-        </span>
-
-        <span className="description credits">
-            Created with <a href="https://nextjs.org/" target="_blank">Next.js</a> framework and <a href="https://sass-lang.com/" target="_blank">Sass</a> stylesheets. <br/>
-            Developed in <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>. <br/>
-            Deployed with <a href="https://vercel.com/" target="_blank">Vercel</a>. <br/>
-            © 2026 Johnson Dinh
-        </span>
+        </span> */}
     </div>
   );
 }

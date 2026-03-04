@@ -1,10 +1,10 @@
 "use client";
 import "./page.scss";
 import headerImage from "../../public/images/header.png";
-import { GitHub, Instagram, LinkedIn, Public } from "@mui/icons-material";
 import React from "react";
 import About from "@/pages/about/about";
 import Experience from "@/pages/experience/experience";
+import { GitHub, Instagram, LinkedIn, Public } from "@mui/icons-material";
 
 
 export default function Home() {
@@ -14,10 +14,6 @@ export default function Home() {
     country: string;
     region: string;
   };
-
-  interface SectionsInterface {
-    name: string;
-  }
 
   const locations: Array<LocationsInterface> = [
     { city: "Ho Chi Minh City", province: "VN", country: '', region: "SEA" },
@@ -29,14 +25,6 @@ export default function Home() {
     { city: "Torrance", province: "CA", country: 'US', region: "NA" },
     { city: "Seattle", province: "WA", country: 'US', region: "NA" }
   ];
-
-  const sections: Array<SectionsInterface> = [
-    { name: "ABOUT" },
-    { name: "EXPERIENCE" },
-    // { name: "PROJECTS" },
-    // { name: "ACADEMIA" }
-  ];
-  const [selectedSection, setSelectedSection] = React.useState("ABOUT");
 
 
   return (
@@ -59,32 +47,17 @@ export default function Home() {
       </header>
 
       <main className="main">
-        { selectedSection === "ABOUT" && <About />}
-        { selectedSection === "EXPERIENCE" && <Experience />}
+        <About />
+        <Experience />
       </main>
-
-      {/* Side navigation component */}
-      <nav className="side-nav">
-        {sections.map((section, ind) => (
-          <a className={`item ${selectedSection === section.name ? 'selected' : ''}`} onClick={() => setSelectedSection(section.name)} key={ind}>
-            <span className="indicator"></span>
-            <span>{section.name}</span>
-          </a>
-        ))}
-      </nav>
-
-      {/* Top bar navigation component */}
-      <nav className="top-nav">
-        {sections.map((section, ind) => (
-          <a className={`item ${selectedSection === section.name ? 'selected' : ''}`} onClick={() => setSelectedSection(section.name)} key={ind}>
-            <span>{section.name}</span>
-          </a>
-        ))}
-      </nav>
 
       {/* Footer component */}
       <footer className="footer">
-        <a href="https://www.instagram.com/jdinhhhh/" target="_blank" rel="noopener">
+        <a href="https://www.instagram.com/jdinh782/" target="_blank" rel="noopener">
+          <span>© 2026 Johnson Dinh</span>
+        </a>
+
+        <a href="https://www.instagram.com/jdinh782/" target="_blank" rel="noopener">
           <Instagram />
         </a>
 
