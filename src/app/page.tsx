@@ -47,8 +47,10 @@ export default function Home() {
       </header>
 
       <main className="main">
-        <About />
-        <Experience />
+        <div className="sections">
+            <About />
+            <Experience />
+        </div>
       </main>
 
       {/* Footer component */}

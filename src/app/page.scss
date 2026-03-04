@@ -1,9 +1,10 @@
 .page {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   min-height: 100svh;
-  padding: 5rem 25rem 5rem 25rem;
-  gap: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  gap: 2.5rem;
   font-family: Inter, sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
   color: whitesmoke;
@@ -14,32 +15,11 @@
     :root { font-family: InterVariable, sans-serif; }
   }
 
-  @media (max-width: 1600px) {
-    padding-left: 15rem;
-    padding-right: 15rem;
-  }
-
-  @media (max-width: 1366px) {
-    padding-left: 12rem;
-    padding-right: 12rem;
-    gap: 2rem;
-  }
-
-  @media (max-width: 964px) {
-    padding: 3rem;
-    flex-direction: column;
-    justify-content: center;
-  }
-
   .header {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-
-    @media (max-width: 964px) {
-      margin-top: 4rem;
-    }
 
     img {
       width: 256px;
@@ -49,118 +29,40 @@
       -moz-border-radius: 500px;
     }
 
-    .locations {
-      display: flex;
-      flex-direction: column;
-      gap: 0.25rem;
+    // .locations {
+    //   display: flex;
+    //   flex-direction: column;
+    //   gap: 0.25rem;
       
-      .location {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
+    //   .location {
+    //     display: flex;
+    //     align-items: center;
+    //     gap: 0.5rem;
         
-        span {
-          font-size: 16px;
-          font-weight: 600;
-        }
-      }
-    }
+    //     span {
+    //       font-size: 16px;
+    //       font-weight: 600;
+    //     }
+    //   }
+    // }
   }
 
-  .side-nav {
+  .main {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    position: fixed;
-    left: 3rem;
-    top: 40%;
+    align-items: center;
 
-    @media (max-width: 964px) {
-      display: none;
-    }
+    .sections {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 50%;
 
-    .item {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      transition: 0.1s ease-out;
-      text-decoration: none;
-      cursor: pointer;
-
-      .indicator {
-        content: '';
-        height: 1px;
-        width: 1rem;
-        color: whitesmoke;
-        background-color: whitesmoke;
-        transition: 0.1s ease-out;
-      }
-
-      span {
-        font-size: 16px;
-        letter-spacing: 1px;
-      }
-    }
-
-    .item:hover {
-      margin-left: 0.5rem;
-      opacity: 70%;
-
-      .indicator {
-        width: 2rem;
-      }
-    }
-    
-    .selected {
-      font-weight: 800;
-
-      .indicator {
-        width: 2rem;
-      }
-    }
-  }
-
-  .top-nav {
-    display: none;
-
-    @media (max-width: 964px) {
-      display: flex;
-      flex-direction: row;
-      gap: 2rem;
-      position: absolute;
-      top: 3rem;
-      left: 50%;
-      transform: translate(-50%);
-    }
-
-    @media (max-width: 768px) {
-      gap: 1rem;
-    }
-
-    @media (max-width: 480px) {
-      gap: 0.5rem;
-    }
-
-    .item {
-      text-decoration: none;
-      cursor: pointer;
-
-      span {
-        font-size: 18px;
-        letter-spacing: 1px;
-
-        @media (max-width: 480px) {
-          font-size: 14px;
+        @media (max-width: 1366px) {
+            width: 100%;
+            padding-left: 5rem;
+            padding-right: 5rem;
         }
-      }
-    }
-
-    .item:hover {
-      opacity: 70%;
-    }
-
-    .selected {
-      font-weight: 800;
     }
   }
 
@@ -172,10 +74,6 @@
     right: 2rem;
     bottom: 2rem;
     align-items: flex-end;
-
-    @media (max-width: 964px) {
-      right: 0.75rem;
-    }
 
     a {
       display: flex;
@@ -193,27 +91,3 @@
     }
   }
 }
-
-// /* Enable hover only on non-touch devices */
-// @media (hover: hover) and (pointer: fine) {
-//   a.primary:hover {
-//     background: var(--button-primary-hover);
-//     border-color: transparent;
-//   }
-
-//   a.secondary:hover {
-//     background: var(--button-secondary-hover);
-//     border-color: transparent;
-//   }
-
-//   .footer a:hover {
-//     text-decoration: underline;
-//     text-underline-offset: 4px;
-//   }
-// }
-
-// @media (max-width: 600px) {
-//   a.secondary {
-//     min-width: auto;
-//   }
-// }

@@ -2,19 +2,6 @@
     display: flex;
     flex-direction: column;
 
-    .title {
-        font-size: 64px;
-
-        @media (max-width: 480px) {
-            font-size: 42px;
-        }
-    }
-
-    .position {
-        font-size: 32px;
-        font-weight: 500;
-    }
-
     .items {
         display: flex;
         flex-direction: column;
@@ -33,7 +20,7 @@
             }
 
             .organization {
-                font-size: 32px;
+                font-size: 2rem;
                 font-weight: bold;
             }
 
@@ -46,11 +33,12 @@
             .position {
                 margin-top: 0.3rem;
                 font-size: 1rem;
+                font-weight: bold;
             }
 
             .description {
                 margin-top: 0.5rem;
-                font-size: 18px;
+                font-size: 1rem;
                 line-height: 32px;
                 font-weight: 300;
                 letter-spacing: 0.5px;
@@ -70,7 +58,6 @@
                 background-color: whitesmoke;
                 margin-left: 50%;
                 margin-top: 2rem;
-                margin-bottom: 2rem;
             }
         }
 
