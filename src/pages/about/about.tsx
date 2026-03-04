@@ -42,7 +42,7 @@ export default function About() {
             Created with <a href="https://nextjs.org/" target="_blank">Next.js</a> framework and <a href="https://sass-lang.com/" target="_blank">Sass</a> stylesheets. <br/>
             Developed in <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>. <br/>
             Deployed with <a href="https://vercel.com/" target="_blank">Vercel</a>. <br/>
-            © 2024 Johnson Dinh
+            © 2026 Johnson Dinh
         </span>
     </div>
   );

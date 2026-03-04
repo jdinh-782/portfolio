@@ -1,17 +1,14 @@
 # Portfolio
-
-## Description
-A web application to host my portfolio.
+A web application to host my life portfolio.
 
 
-## Help
-For all inquiries, please email me at [jdinhbus@gmail.com](mailto:jdinhbus@gmail.com?subject=[GitHub]%20Source%20Han%20Sans).
+## Overview
+I turn ideas to reality through digital solutions.
 
 
-## Authors and Contributors
+## Authors
 [Johnson Dinh](https://www.linkedin.com/in/johnson-dinh/)
 
 
-## Acknowledgements
-[Brittany Chiang](https://brittanychiang.com/#about) <br/>
-[Once UI](https://once-ui.com/templates/magic-portfolio)
+## License
+This project is licensed under the MIT License.
